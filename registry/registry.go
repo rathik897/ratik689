@@ -13,7 +13,6 @@ import (
 	"tokenvm/auth"
 	"tokenvm/consts"
 )
-
 // Setup types
 func init() {
 	consts.ActionRegistry = codec.NewTypeParser[chain.Action, *warp.Message]()
