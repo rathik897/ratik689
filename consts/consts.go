@@ -38,3 +38,4 @@ var (
 	ActionRegistry *codec.TypeParser[chain.Action, *warp.Message, bool]
 	AuthRegistry   *codec.TypeParser[chain.Auth, *warp.Message, bool]
 )
+
